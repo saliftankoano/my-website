@@ -7,6 +7,7 @@ import Navbar from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ root.render(
     <Skills/>
     <Projects/>
     <Contact/>
+    <Footer/>
   </React.StrictMode>
 );
 

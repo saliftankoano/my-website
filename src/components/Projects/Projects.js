@@ -17,7 +17,7 @@ const projects= ()=>{
                 <a href="https://saliftankoano.github.io/meme-parlor/" target="_blank" rel="noreferrer" ><img src={Portfolio3} className="projects-img" alt="meme parlor"/></a>
                 <a href="https://saliftankoano.github.io/who-picks/" target="_blank" rel="noreferrer" ><img src={Portfolio4} className="projects-img" alt="who pciks"/></a>
             </div>
-            <a href="https://github.com/saliftankoano" target="_black"><button className="projects-btn">See More</button></a>
+            <a href="https://github.com/saliftankoano" target="_black" rel="noreferrer"><button className="projects-btn">See More</button></a>
         </section>
     )
 }
