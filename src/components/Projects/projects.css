@@ -1,14 +1,12 @@
 #projects{
     margin: 0 auto;
-    min-height: calc(100vh-4rem);
-    width: 100vh;
-    max-width: 65rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 1rem;
+    color: white;
 }
 .projects-title{
     margin: 1rem 0;
