@@ -28,7 +28,7 @@
     width: 60%;
     padding-left: 2%;
     position: absolute;
-    top: 20%;
+    top: 25%;
 }
 /* TEXT */
 
@@ -60,6 +60,19 @@
     }
     .job{
         font-size: 2rem;
+    }
+}
+@media screen and (max-width: 620px) {
+    #profile{
+        position: absolute;
+        top:10%;
+        height: 50vh;
+    }
+    .intro{
+        height: 52vh;
+    }
+    .left{
+        top: 15%;
     }
 }
 
