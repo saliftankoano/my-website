@@ -1,3 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.button--flex{
+  display: inline-flex;
+  align-items: center;
+  
+}
 .App {
   text-align: center;
 }
@@ -35,4 +51,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+:root{
+  --header-height: 3rem;
+
 }
